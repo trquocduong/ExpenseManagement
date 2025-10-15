@@ -1,0 +1,17 @@
+{
+    "name": "quocd/ex-manager",
+    "autoload": {
+        "psr-4": {
+        "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tranquocduong",
+            "email": "quocduong0338542631@gmail.com"
+        }
+    ],
+    "require": {}
+    
+
+}
