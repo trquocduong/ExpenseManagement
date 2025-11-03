@@ -1,0 +1,29 @@
+@keyframes marquee {
+            from {
+                transform: translateX(300%);
+            }
+
+            to {
+                transform: translateX(-100%);
+            }
+        }
+
+        .marquee {
+            white-space: nowrap;
+            animation: marquee 20s linear infinite;
+        }
+
+        :root {
+            --main-color: #007bff;
+        }
+
+        .search-box input {
+            border-radius: 30px;
+            padding-left: 15px;
+        }
+
+        .navbar-brand span {
+            color: #333;
+         
+        }
+        
